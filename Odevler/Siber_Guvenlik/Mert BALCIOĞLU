@@ -22,7 +22,6 @@ def convert_to_decimal(binary_string):
         decimal = decimal * 2 + int(digit)
     return decimal
 
-# Test kodu
 sayi = 12345
 print(f"Sayı: {sayi}")
 print(f"Rakamlar toplamı: {rakamlar_toplami(sayi)}")
